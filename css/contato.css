@@ -1,0 +1,112 @@
+.contato {
+  width: 450px;
+  padding: 15px 30px;
+  margin: 40px auto 0 auto;
+  border-radius: 4px;
+  position: relative;
+  background: #2e2B3F;
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.title h3 {
+  clear: blueviolet;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  margin-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.mail i {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: blueviolet;
+}
+
+.form,
+.form-items {
+  width: 100%;
+
+}
+
+.form-items .input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 36px;
+  box-sizing: border-box;
+  background: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 30px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #fff;
+  font-size: 1rem;
+
+
+}
+
+.form-items .input:focus {
+  border: none;
+  outline: none;
+}
+
+.form-items .input.message {
+  height: 124px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  resize: none;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto 12px auto;
+  width: 160px;
+  border: 1px solid blueviolet;
+  border-radius: 100px;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all .2s;
+  cursor: pointer;
+
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn .fas {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+.form-items {
+  position: relative;
+}
+
+.form-items .fas {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+  box-shadow: 0 5px 50px 0 blueviolet inset, 0 5px 50px 0 blueviolet,
+    0 5px 50px 0 blueviolet inset, 0 5px 50px 0 blueviolet;
+  transition: all .2s;
+}
+
+@media (max-width: 768px) {
+  .contato {
+    width: 340px;
+  }
+}
