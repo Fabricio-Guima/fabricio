@@ -1,7 +1,47 @@
 @media (max-width: 380px) {
+  .logo {
+    margin-left: 10px;
+  }
+
+  .menu {
+    margin-right: 10px;
+  }
+
   .intro h1 {
-    margin-top: 200px;
-    font-size: 2rem;
+    display: none;
+
+  }
+
+  .intro h2 {
+    display: block;
+  }
+
+  .container {
+    padding: 0;
+    width: 100%;
+  }
+
+  .tecs {
+    width: 100%;
+
+    padding: 0;
+  }
+
+  .box {
+
+    display: block;
+    width: 200px;
+
+
+    border: 1px solid;
+  }
+
+  .box h3 {
+    margin-top: 50px;
+  }
+
+  .box p {
+    display: none;
   }
 }
 
@@ -32,7 +72,7 @@
 
   .tecs {
     width: 100%;
-    border: 1px solid darkblue;
+
     padding: 0;
   }
 
