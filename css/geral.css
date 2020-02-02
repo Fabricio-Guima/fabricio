@@ -40,6 +40,11 @@ header {
   transition: all .3s;
 }
 
+.favicone {
+  color: blueviolet;
+  background-color: blueviolet;
+}
+
 /*classes dinâmicas em js*/
 .header-padrao {
   background: rgba(78, 49, 136, 1);
